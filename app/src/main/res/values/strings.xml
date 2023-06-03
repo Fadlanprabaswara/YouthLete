@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">YouthLete</string>
+    <string name="tagline">CHASE YOUR DREAM WITH US</string>
+    <string name="tagline2">Plan your dream to be athlete in the app</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
 </resources>
