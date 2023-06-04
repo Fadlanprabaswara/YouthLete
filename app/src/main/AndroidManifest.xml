@@ -12,10 +12,7 @@
         android:theme="@style/Theme.YouthLete"
         tools:targetApi="31">
         <activity
-            android:name=".loginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
+            android:name=".login.loginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
