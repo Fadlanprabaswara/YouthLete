@@ -5,6 +5,7 @@
     <string name="username">Username</string>
     <string name="member">Not a member?</string>
     <string name="Password">Password</string>
+    <string name="Email">E-mail</string>
     <string name="Register_With">Or Register With</string>
     <string name="create_new_account">CREATE NEW ACCOUNT</string>
     <string name="already_have_account">Already have account?</string>
