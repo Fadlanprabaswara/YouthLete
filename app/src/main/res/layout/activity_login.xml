@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="418dp"
         android:layout_height="346dp"
-        app:srcCompat="@drawable/gambarlogin"
+        android:background="@drawable/gambarlogin"
         android:scaleType="fitXY"
         tools:ignore="MissingConstraints"/>
 
@@ -67,7 +67,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputUsername"
         android:layout_width="278dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -77,13 +77,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"
-            android:hint="@string/username"/>
+
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputPw"
         android:layout_width="278dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -93,31 +94,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"
-            android:hint="@string/Password"/>
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/bt_login"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="17dp"
+        android:id="@+id/button"
+        android:layout_width="217dp"
+        android:layout_height="62dp"
         android:background="@drawable/shape_bt"
-        android:text="Login"
+        android:text="login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputPw"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.28" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_login"
-        app:layout_constraintVertical_bias="0.675"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
@@ -136,6 +136,8 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
