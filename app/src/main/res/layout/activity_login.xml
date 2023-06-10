@@ -76,12 +76,12 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:textColor="@color/white"
-        android:text="@string/username"
+        android:text="@string/Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputUsername"
+        android:id="@+id/textInputEmail"
         android:layout_width="278dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
@@ -90,6 +90,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"
@@ -104,9 +105,10 @@
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textInputUsername">
+        app:layout_constraintTop_toBottomOf="@+id/textInputEmail">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtpw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"
