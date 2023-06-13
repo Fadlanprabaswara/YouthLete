@@ -4,11 +4,10 @@ data class Sports(
     val name: String,
     val kursus: String,
     val imageResId: Int,
+    val desc: String,
     val courses: List<Course>
-)
+) : java.io.Serializable
 
 data class Course(
     val name: String,
-    val instructor: String,
-    val schedule: String
-)
+) : java.io.Serializable

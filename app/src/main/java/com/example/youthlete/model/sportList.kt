@@ -8,30 +8,33 @@ object sportList {
             "Sepak Bola",
             "30",
             R.drawable.soccer_image,
+            "sepak bola adalah sebuah cabang olahraga yang menggunakan sebuah bola yang terbuat dari kulit atau karet dan dimainkan oleh dua tim, yang mana masing-masing Tim terdiri dari sebelas pemain dan ada juga beberapa pemain yang berperan sebagai pemain pengganti",
             listOf(
-                Course("Pengenalan Sepak Bola", "John Doe", "Senin, 15:00 - 17:00"),
-                Course("Teknik Dasar Sepak Bola", "Jane Smith", "Rabu, 16:00 - 18:00"),
-                Course("Strategi Permainan", "Michael Johnson", "Jumat, 14:00 - 16:00")
+                Course("Pengenalan Sepak Bola"),
+                Course("Teknik Dasar Sepak Bola"),
+                Course("Strategi Permainan")
             )
         ),
         Sports(
             "Bulutangkis",
             "40",
             R.drawable.badminton_image,
+            " Bulu tangkis adalah suatu olahraga raket yang dimainkan oleh dua orang (untuk tunggal) atau dua pasangan (untuk ganda) yang saling berlawanan. Di Indonesia, bulu tangkis termasuk satu di antara olahraga populer.",
             listOf(
-                Course("Pengenalan Bulutangkis", "John Doe", "Selasa, 13:00 - 15:00"),
-                Course("Teknik Dasar Bulutangkis", "Jane Smith", "Kamis, 14:00 - 16:00"),
-                Course("Strategi Bermain", "Michael Johnson", "Sabtu, 09:00 - 11:00")
+                Course("Pengenalan Bulutangkis"),
+                Course("Teknik Dasar Bulutangkis"),
+                Course("Strategi Bermain")
             )
         ),
         Sports(
             "Renang",
             "50",
             R.drawable.swimming_image,
+            " Renang merupakan satu di antara cabang olahraga akuatik. Renang adalah upaya untuk menggerakkan (mengapungkan atau mengangkat) semua bagian tubuh ke atas permukaan air.",
             listOf(
-                Course("Pengenalan Renang", "John Doe", "Senin, 10:00 - 12:00"),
-                Course("Teknik Dasar Renang", "Jane Smith", "Rabu, 11:00 - 13:00"),
-                Course("Gaya Kupu-kupu", "Michael Johnson", "Jumat, 08:00 - 10:00")
+                Course("Pengenalan Renang"),
+                Course("Teknik Dasar Renang"),
+                Course("Gaya Kupu-kupu")
             )
         )
     )

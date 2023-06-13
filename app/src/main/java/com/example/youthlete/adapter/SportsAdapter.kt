@@ -10,10 +10,14 @@ import com.bumptech.glide.Glide
 import com.example.youthlete.R
 import com.example.youthlete.model.Sports
 
-class SportsAdapter(private var sportsList: List<Sports>) :
-    RecyclerView.Adapter<SportsAdapter.ViewHolder>() {
+class SportsAdapter(
+    private var sportsList: List<Sports>,
+    private val onItemClickListener: OnItemClickListener
+) : RecyclerView.Adapter<SportsAdapter.ViewHolder>() {
 
-
+    interface OnItemClickListener {
+        fun onItemClick(sports: Sports)
+    }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.tv_item_name)
@@ -26,12 +30,15 @@ class SportsAdapter(private var sportsList: List<Sports>) :
             Glide.with(itemView.context)
                 .load(sports.imageResId)
                 .into(imageView)
+
+            itemView.setOnClickListener {
+                onItemClickListener.onItemClick(sports)
+            }
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_sport, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_sport, parent, false)
         return ViewHolder(view)
     }
 
