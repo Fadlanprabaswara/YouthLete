@@ -3,6 +3,7 @@ package com.example.youthlete.register
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.PasswordTransformationMethod
 import android.util.Patterns
 import android.widget.Toast
 import com.example.youthlete.databinding.ActivityRegisterBinding
@@ -56,6 +57,9 @@ class RegisterActivity : AppCompatActivity() {
 
 
         }
+
+        // Set password input type to display asterisks
+        binding.pwEt.transformationMethod = PasswordTransformationMethod.getInstance()
 
     }
 

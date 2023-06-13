@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.PasswordTransformationMethod
 import android.util.Patterns
 import android.widget.Toast
 import com.example.youthlete.MainActivity
@@ -73,6 +74,8 @@ class loginActivity : AppCompatActivity() {
 
             loginFirebase(email, password)
         }
+
+        binding.edtpw.transformationMethod = PasswordTransformationMethod.getInstance()
     }
 
     private fun loginFirebase(email: String, password: String) {
