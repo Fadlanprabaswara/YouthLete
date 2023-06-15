@@ -10,4 +10,5 @@ data class Sports(
 
 data class Course(
     val name: String,
+    val imageResId: Int
 ) : java.io.Serializable

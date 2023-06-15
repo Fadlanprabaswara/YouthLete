@@ -10,9 +10,9 @@ object sportList {
             R.drawable.soccer_image,
             "sepak bola adalah sebuah cabang olahraga yang menggunakan sebuah bola yang terbuat dari kulit atau karet dan dimainkan oleh dua tim, yang mana masing-masing Tim terdiri dari sebelas pemain dan ada juga beberapa pemain yang berperan sebagai pemain pengganti",
             listOf(
-                Course("Pengenalan Sepak Bola"),
-                Course("Teknik Dasar Sepak Bola"),
-                Course("Strategi Permainan")
+                Course("Pengenalan Sepak Bola",R.drawable.soccer),
+                Course("Teknik Dasar Sepak Bola",R.drawable.soccer_technique),
+                Course("Strategi Permainan",R.drawable.soccer_strategy)
             )
         ),
         Sports(
@@ -21,9 +21,9 @@ object sportList {
             R.drawable.badminton_image,
             " Bulu tangkis adalah suatu olahraga raket yang dimainkan oleh dua orang (untuk tunggal) atau dua pasangan (untuk ganda) yang saling berlawanan. Di Indonesia, bulu tangkis termasuk satu di antara olahraga populer.",
             listOf(
-                Course("Pengenalan Bulutangkis"),
-                Course("Teknik Dasar Bulutangkis"),
-                Course("Strategi Bermain")
+                Course("Pengenalan Bulutangkis",R.drawable.badminton),
+                Course("Teknik Dasar Bulutangkis",R.drawable.badminton_technique),
+                Course("Strategi Bermain",R.drawable.badminton_stratgy)
             )
         ),
         Sports(
@@ -32,9 +32,9 @@ object sportList {
             R.drawable.swimming_image,
             " Renang merupakan satu di antara cabang olahraga akuatik. Renang adalah upaya untuk menggerakkan (mengapungkan atau mengangkat) semua bagian tubuh ke atas permukaan air.",
             listOf(
-                Course("Pengenalan Renang"),
-                Course("Teknik Dasar Renang"),
-                Course("Gaya Kupu-kupu")
+                Course("Pengenalan Renang",R.drawable.swimming),
+                Course("Teknik Dasar Renang",R.drawable.swimming),
+                Course("Gaya Kupu-kupu",R.drawable.swimming_butterfly)
             )
         ),
         Sports(
@@ -43,8 +43,8 @@ object sportList {
             R.drawable.sports_boxing,
             "Seni bela diri campuran atau lebih dikenal dengan sebutan Mixed Martial Arts (MMA) adalah olahraga kontak yang memperbolehkan berbagai teknik pertarungan, seperti pergumulan, tendangan, dan pukulan.Di dalam MMA, masing-masing praktisi didorong untuk mengkombinasikan teknik dari berbagai cabang seni bela diri untuk melumpuhkan lawan",
             listOf(
-                Course("Abductors"),
-                Course("Adductors"),
+                Course("Abductors",),
+                Course("Adductors",),
                 Course("Biceps"),
                 Course("Calves"),
                 Course("Chest"),
