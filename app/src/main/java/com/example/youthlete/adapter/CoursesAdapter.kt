@@ -3,8 +3,10 @@ package com.example.youthlete.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.youthlete.R
 import com.example.youthlete.model.Course
 
@@ -13,9 +15,13 @@ class CoursesAdapter(private val coursesList: List<Course>) :
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.tv_item_name)
+        private val imageView: ImageView = itemView.findViewById(R.id.iv_item_photo)
 
         fun bind(course: Course) {
             nameTextView.text = course.name
+            Glide.with(itemView.context)
+                .load(course.imageResId)
+                .into(imageView)
         }
     }
 
