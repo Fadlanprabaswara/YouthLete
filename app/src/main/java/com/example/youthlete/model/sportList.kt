@@ -45,10 +45,10 @@ object sportList {
             listOf(
                 Course("Abductors",),
                 Course("Adductors",),
-                Course("Biceps"),
-                Course("Calves"),
-                Course("Chest"),
-                Course("Foreams"),
+                Course("Biceps",),
+                Course("Calves",),
+                Course("Chest",),
+                Course("Foreams",),
             )
         ),
         Sports(
@@ -57,14 +57,14 @@ object sportList {
             R.drawable.sports_basketball,
             "Bola basket merupakan salah satu jenis olahraga yang menggunakan bola besar. Bola dimainkan secara berkelompok yang terdiri dari dua tim yang masing-masing beranggotakan lima orang. Kedua tim tersebut bersaing untuk mencetak poin sebanyak-banyaknya dengan cara memasukkan bola ke ring/basket lawan",
             listOf(
-                Course("Abductors"),
-                Course("Adductors"),
-                Course("Biceps"),
-                Course("Calves"),
-                Course("Chest"),
-                Course("Glutes"),
-                Course("Hamstring"),
-                Course("Lower_Back"),
+                Course("Abductors",),
+                Course("Adductors",),
+                Course("Biceps",),
+                Course("Calves",),
+                Course("Chest",),
+                Course("Glutes",),
+                Course("Hamstring",),
+                Course("Lower_Back",),
             )
         ),
         Sports(
@@ -73,14 +73,14 @@ object sportList {
             R.drawable.sports_volley,
             "permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain.",
             listOf(
-                Course("Abductors"),
-                Course("Adductors"),
-                Course("Biceps"),
-                Course("Calves"),
-                Course("Chest"),
-                Course("Shoulder"),
-                Course("Hamstring"),
-                Course("Glutes"),
+                Course("Abductors",),
+                Course("Adductors",),
+                Course("Biceps",),
+                Course("Calves",),
+                Course("Chest",),
+                Course("Shoulder",),
+                Course("Hamstring",),
+                Course("Glutes",),
             )
         )
     )
