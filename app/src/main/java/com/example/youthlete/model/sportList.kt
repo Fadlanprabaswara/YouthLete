@@ -33,7 +33,7 @@ object sportList {
             " Renang merupakan satu di antara cabang olahraga akuatik. Renang adalah upaya untuk menggerakkan (mengapungkan atau mengangkat) semua bagian tubuh ke atas permukaan air.",
             listOf(
                 Course("Pengenalan Renang",R.drawable.swimming),
-                Course("Teknik Dasar Renang",R.drawable.swimming),
+                Course("Teknik Dasar Renang",R.drawable.swimming_technique),
                 Course("Gaya Kupu-kupu",R.drawable.swimming_butterfly)
             )
         ),
@@ -43,12 +43,12 @@ object sportList {
             R.drawable.sports_boxing,
             "Seni bela diri campuran atau lebih dikenal dengan sebutan Mixed Martial Arts (MMA) adalah olahraga kontak yang memperbolehkan berbagai teknik pertarungan, seperti pergumulan, tendangan, dan pukulan.Di dalam MMA, masing-masing praktisi didorong untuk mengkombinasikan teknik dari berbagai cabang seni bela diri untuk melumpuhkan lawan",
             listOf(
-                Course("Abductors",R.drawable.swimming),
-                Course("Adductors",R.drawable.swimming),
-                Course("Biceps",R.drawable.swimming),
-                Course("Calves",R.drawable.swimming),
-                Course("Chest",R.drawable.swimming),
-                Course("Foreams",R.drawable.swimming),
+                Course("Abductors",R.drawable.abductor),
+                Course("Adductors",R.drawable.adductors),
+                Course("Biceps",R.drawable.biceps),
+                Course("Calves",R.drawable.calves),
+                Course("Chest",R.drawable.chest),
+                Course("Foreams",R.drawable.forearms),
             )
         ),
         Sports(
@@ -57,14 +57,14 @@ object sportList {
             R.drawable.sports_basketball,
             "Bola basket merupakan salah satu jenis olahraga yang menggunakan bola besar. Bola dimainkan secara berkelompok yang terdiri dari dua tim yang masing-masing beranggotakan lima orang. Kedua tim tersebut bersaing untuk mencetak poin sebanyak-banyaknya dengan cara memasukkan bola ke ring/basket lawan",
             listOf(
-                Course("Abductors",R.drawable.swimming),
-                Course("Adductors",R.drawable.swimming),
-                Course("Biceps",R.drawable.swimming),
-                Course("Calves",R.drawable.swimming),
-                Course("Chest",R.drawable.swimming),
-                Course("Glutes",R.drawable.swimming),
-                Course("Hamstring",R.drawable.swimming),
-                Course("Lower_Back",R.drawable.swimming),
+                Course("Abductors",R.drawable.abductor),
+                Course("Adductors",R.drawable.adductors),
+                Course("Biceps",R.drawable.biceps),
+                Course("Calves",R.drawable.calves),
+                Course("Chest",R.drawable.chest),
+                Course("Glutes",R.drawable.glutes),
+                Course("Hamstring",R.drawable.hamstring),
+                Course("Lower_Back",R.drawable.lower_back),
             )
         ),
         Sports(
@@ -73,14 +73,14 @@ object sportList {
             R.drawable.sports_volley,
             "permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain.",
             listOf(
-                Course("Abductors",R.drawable.swimming),
-                Course("Adductors",R.drawable.swimming),
-                Course("Biceps",R.drawable.swimming),
-                Course("Calves",R.drawable.swimming),
-                Course("Chest",R.drawable.swimming),
-                Course("Shoulder",R.drawable.swimming),
-                Course("Hamstring",R.drawable.swimming),
-                Course("Glutes",R.drawable.swimming),
+                Course("Abductors",R.drawable.abductor),
+                Course("Adductors",R.drawable.adductors),
+                Course("Biceps",R.drawable.biceps),
+                Course("Calves",R.drawable.calves),
+                Course("Chest",R.drawable.chest),
+                Course("Shoulder",R.drawable.shoulder),
+                Course("Hamstring",R.drawable.hamstring),
+                Course("Glutes",R.drawable.glutes),
             )
         )
     )
